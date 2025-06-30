@@ -11,12 +11,12 @@ const suitColors = {
 };
 
 deck.cards.map(card => {
-    const { rank, suit, icon, color } = card;
+    const { rank, suit, icon, color, faceUp } = card;
 
 
     const cardHtml = `
-        <div class="card-container face-up">
-            <div class="card ${color}">
+        <div class="card-container ${faceUp ? 'face-up' : 'face-down'}">
+            <div class="card ${color} ${faceUp ? '' : 'down'}">
                 <div class="card-front">
                     <div class="card-rank">${rank}</div>
                     <div class="card-suit">${icon}</div>

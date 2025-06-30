@@ -110,7 +110,7 @@ main {
   z-index: 1;
 }
 
-.face-down{
+.special-face-down{
   transform-origin: bottom-left;
   transform: translateY(-20px) rotateZ(-20deg) translateX(-50px);
   position: absolute;
