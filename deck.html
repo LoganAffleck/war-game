@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>View Deck | War Card Game</title>
+</head>
+<body>
+     <nav class="menu">
+      <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="game.html">Play Game</a></li>
+        <li><a href="deck.html" class="active">View Deck</a></li>
+      </ul>
+    </nav>
+
+<main>
+    <h1>View Deck</h1>
+    <p>This page will display the deck of cards.</p>
+    <div id="deck-container">
+        <h2>Hearts ♥</h2>
+        <div class="cards-view hearts">
+        <!-- Cards will be displayed here -->
+        </div>
+        <h2>Clubs ♣</h2>
+        <div class="cards-view clubs">
+        <!-- Cards will be displayed here -->
+        </div>
+        <h2>Diamonds ♦</h2>
+        <div class="cards-view diamonds">
+        <!-- Cards will be displayed here -->
+        </div>
+        <h2>Spades ♠</h2>
+        <div class="cards-view spades">
+        <!-- Cards will be displayed here -->
+        </div>
+    </div>
+</main>
+<script src="/scripts/deck.js" type="module"></script>
+<script src="/views/deckView.js" type="module"></script>
+</body>
+</html>
